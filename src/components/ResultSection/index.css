@@ -1,0 +1,46 @@
+.result-section {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.result-section-imgs {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.choice-img {
+  width: 150px;
+}
+.play-again-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #ffff;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+}
+li {
+  list-style: none;
+}
+.each-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+.each-player h3 {
+  color: #ffff;
+}
+.your-result {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 20px;
+}

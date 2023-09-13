@@ -94,7 +94,7 @@ The app must have the following functionalities
 - You can use `Math.floor()` function that returns the **largest integer less than or equal to a given number**
 
   ```js
-  console.log(Math.floor(5.95)); // output: 5
+  console.log(Math.floor(5.95)) // output: 5
   ```
 
 </details>
@@ -152,4 +152,5 @@ The app must have the following functionalities
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
 # Rock-Paper-Scissors

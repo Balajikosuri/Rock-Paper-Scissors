@@ -1,0 +1,17 @@
+.Playing-section {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 440px);
+}
+.choice-img {
+  width: 120px;
+}
+.each-item-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

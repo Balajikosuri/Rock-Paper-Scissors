@@ -1,0 +1,119 @@
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.responsive {
+  width: min(80%, 800px);
+  min-height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rules-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+  padding-right: 5px;
+}
+.rules-button {
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.rules-button :hover {
+  background-color: blue;
+  color: #ffff;
+}
+
+/* pop model style */
+.popup-overlay {
+  backdrop-filter: blur(2px);
+  text-align: center !important;
+}
+.popup-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.close {
+  cursor: pointer;
+  align-self: flex-end;
+
+  padding: 5px 7px;
+  line-height: 8px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  margin-bottom: 20px;
+}
+.rules-img {
+  width: 100%;
+}
+.popup-container {
+  padding: 5%;
+  width: min(100%, 500px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border-radius: 4px;
+}
+/*  */
+/* my footer */
+.my-dev-container {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+.my-dev-container {
+  width: 100vw;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -ms-flex-pack: center;
+  margin: 5%;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #8b5cf6;
+  font-weight: 700;
+  font-size: 12 px;
+  margin-left: 1%;
+}
+
+.anchor:hover {
+  -webkit-box-shadow: 0 2px 18px 0 orange;
+  box-shadow: 0 2px 18px 0 orange;
+  background-color: orange;
+  font-size: 14px;
+}
+
+.my-text {
+  font-size: 14px;
+  text-align: center;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.my-name {
+  font-weight: 700;
+}
+
+/*  */
